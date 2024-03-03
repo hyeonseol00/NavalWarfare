@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="GaApplication">
+      <UniqueIdentifier>{66bdf290-348e-4b43-8d8b-d2a8b5c04f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundManager">
+      <UniqueIdentifier>{6c729557-5281-44f8-970c-c72b9cbadd13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager">
+      <UniqueIdentifier>{9da2dec2-1c6d-4f2b-8512-d183c51fc7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FontManager">
+      <UniqueIdentifier>{0c281d61-3161-47f9-9ec9-e7d8ea797d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputManager">
+      <UniqueIdentifier>{eaf142bb-d91b-493d-8c64-0c28aab72652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Intro">
+      <UniqueIdentifier>{e2043926-f9e6-4b9f-bdeb-d54c70a8af83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Menu">
+      <UniqueIdentifier>{7af83a3f-ad98-4555-afc5-5da1af1caba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Stage">
+      <UniqueIdentifier>{6ac3b62a-5984-40dd-970c-e6515c50ed51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Stage\BackGround">
+      <UniqueIdentifier>{4de3ab66-3e7f-495a-a0a6-a4a9ac4d7e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Stage\Player">
+      <UniqueIdentifier>{20a431ad-5f5a-4c99-989a-e4748f62a071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Stage\Enemy">
+      <UniqueIdentifier>{3e5c9299-0f34-4a75-8ee7-21340ac788de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NavalWarfare3.cpp" />
+    <ClCompile Include="GaApplication.cpp">
+      <Filter>GaApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>FontManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>ObjectManager\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>ObjectManager\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>ObjectManager\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>ObjectManager\Stage\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ObjectManager\Stage\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ObjectManager\Stage\Enemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="GaApplication.h">
+      <Filter>GaApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>FontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKsound.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKwavefile.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>ObjectManager\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>ObjectManager\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>ObjectManager\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>ObjectManager\Stage\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ObjectManager\Stage\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ObjectManager\Stage\Enemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="NavalWarfare3.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
